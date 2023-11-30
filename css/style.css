@@ -1,8 +1,12 @@
+/*Reset*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+  
+/*Header*/
 
 header{
     width: 100%;
@@ -32,4 +36,44 @@ header{
     border: 1px dashed black;
     padding: 10px;
     background-color: antiquewhite;
+}
+
+/*Jumbotron*/
+
+.jumbotron{
+    background-color:hsl(207.06deg 51.52% 80.59%);
+    border: 1px dashed black;
+    padding-top: 30px;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+
+.jumbotron-title{
+    border: 1px dashed black;
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+
+.jumbotron-columns{
+    display: flex;
+}
+
+.jumbotron-caption{
+    border: 1px dashed black;
+    width: 50%;
+    padding: 30px 60px;
+    padding-top: 60px;
+}
+
+.jumbotron-image{
+    border: 1px dashed black;
+    width: 50%;
+}
+
+.img-jumbo{
+    width: 700px;
+    position: relative;
+    bottom: -60px;
+    left: 0;
 }
