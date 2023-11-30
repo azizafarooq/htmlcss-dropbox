@@ -72,8 +72,26 @@ header{
 }
 
 .img-jumbo{
-    width: 700px;
+    width: 500px;
     position: relative;
     bottom: -60px;
     left: 0;
 }
+
+main{
+    margin: 90px 150px;
+    padding:50px;
+    border: 1px dashed black;
+
+    /*Debug*/
+    height: 900px;
+}
+
+/*Nav Fatturazione*/
+
+.nav-fatturazione{
+    border: 1px dashed black;
+}
+
+/*Fatturazione Columns*/
+
