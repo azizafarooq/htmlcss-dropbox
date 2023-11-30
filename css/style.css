@@ -5,7 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-  
+
+li{
+    list-style: none;
+}
 /*Header*/
 
 header{
@@ -84,7 +87,7 @@ main{
     border: 1px dashed black;
 
     /*Debug*/
-    height: 900px;
+    height: 1000px;
 }
 
 /*Nav Fatturazione*/
@@ -95,3 +98,17 @@ main{
 
 /*Fatturazione Columns*/
 
+.fatturazione-columns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.column{
+    width: calc(100% / 3);
+    border: 1px dashed black;
+    height: 900px;
+}
+
+.column-name{
+    border: 1px solid black;
+}
