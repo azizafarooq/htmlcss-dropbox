@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -18,7 +19,7 @@
             <a class="option" href="#">Supporto</a>
             <a class="option" href="#">Contatta l'ufficio vendite</a>
             <a class="option" href="#">Accedi</a>
-            <a class="option btn" href="#">Inizia</a>
+            <a class="option btn-inizio" href="#">Inizia</a>
         </div>
     </header>
     <section class="jumbotron">
@@ -28,9 +29,9 @@
         <div class="jumbotron-columns">
             <div class="jumbotron-caption">
                 <p>Collabora facilmente e invia il lavoro in modo rapido con Dropbox. Archivia contenuti in tutta sicurezza, modifica PDF, condividi video, firma documenti e monitora l'interesse sui file che invii senza mai uscire da Dropbox.</p>
-                <button>Inizia la tua prova gratuita</button>
+                <span class="btn1">Inizia la tua prova gratuita</span>
                 <p>Anulla in qualsiasi momento</p>
-                <span>icona</span>
+                <i class="fa-solid fa-arrow-down"></i>
             </div>
             <div class="jumbotron-image">
                 <img class="img-jumbo" src="./img/jumbo.png" alt="">
@@ -38,49 +39,92 @@
         </div>
     </section>
     <main>
-        <nav class="nav-fatturazione">
-            <h2>Trova il piano business che fa per te</h2>
-            <input type="radio"><Span>Fatturazione annuale</Span>
-            <input type="radio"><Span>Fatturazione annuale</Span>
+        <nav>
+            <h2 class="testo">Trova il piano business che fa per te</h2>
+            <input type="radio">
+            <Span class="annuale">Fatturazione annuale</Span>
+            <input type="radio">
+            <Span>Fatturazione mensile</Span>
+                
         </nav>
         <section class="fatturazione-columns">
             <div class="column">
-                <div class="column-name">Singolo</div>
+                <div class="column-name">
+                    <i class="fa-solid fa-user"></i>Singolo</div>
                 <div class="professional">
-                    <h3>Professional</h3>
-                    <span class="prezzo">20$</span>
-                    <ul>Descrizione piano
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <h3 class="tipologia">Professional</h3>
+                    <span class="prezzo">$20.00</span>
+                    <ul>
+                        <li>
+                            <span class="simbolo"><i class="fa-solid fa-user"></i></span>
+                            <span>1 Utente</span>
+                        </li>
+                        <li>
+                            <span class="simbolo"><i class="fa-solid fa-folder"></i></span></i>
+                            <span>5 TB spazio di archiviazione sicuro</span></li>
+                        <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisione file semplice</li>
                     </ul>
                     <div class="btn">Prova gratis per 30 giorni</div>
+                    <span>oppure <a href="#">acquista ora</a></span>
+                    <h3 class="testo1">Punti salienti del piano</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check" style="color: #403dff;"></i>
+                             <span>Invia file fino a 100 gb con Dropbox</span></li>
+                        <li><i class="fa-solid fa-check" style="color: #403dff;"></i>
+                            <span>Invia file fino a 100 gb con Dropbox</span></li>
+                    </ul>
                 </div>
             </div>
             <div class="column">
-                <div class="column-name">Team</div>
+                <div class="column-name"><i class="fa-solid fa-people-group"></i>Team</div>
                 <div class="advanced">
-                    <h3>Advanced</h3>
-                    <span class="prezzo">20$</span>
-                    <ul>Descrizione piano
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <h3 class="tipologia">Advanced</h3>
+                    <span class="prezzo">$20.00</span>
+                    <ul>
+                        <li>
+                            <span class="simbolo"><i class="fa-solid fa-user"></i></span>
+                            <span>1 Utente</span>
+                        </li>
+                        <li>
+                            <span class="simbolo"><i class="fa-solid fa-folder"></i></span></i>
+                            <span>5 TB spazio di archiviazione sicuro</span></li>
+                        <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisione file semplice</li>
                     </ul>
                     <div class="btn">Prova gratis per 30 giorni</div>
+                    <span>oppure <a href="#">acquista ora</a></span>
+                    <h3 class="testo1">Punti salienti del piano</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check" style="color: #403dff;"></i>
+                             <span>Invia file fino a 100 gb con Dropbox</span></li>
+                        <li><i class="fa-solid fa-check" style="color: #403dff;"></i>
+                            <span>Invia file fino a 100 gb con Dropbox</span></li>
+                    </ul>
                 </div>
             </div>
             <div class="column">
-                <div class="column-name">Azienda</div>
+                <div class="column-name"><i class="fa-solid fa-building"></i>Azienda</div>
                 <div class="Enterprise">
-                    <h3>Enterprise</h3>
-                    <span class="prezzo">20$</span>
-                    <ul>Descrizione piano
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                    <h3 class="tipologia">Enterprise</h3>
+                    <span class="prezzo">$20.00</span>
+                    <ul>
+                        <li>
+                            <span class="simbolo"><i class="fa-solid fa-user"></i></span>
+                            <span>1 Utente</span>
+                        </li>
+                        <li>
+                            <span class="simbolo"><i class="fa-solid fa-folder"></i></span></i>
+                            <span>5 TB spazio di archiviazione sicuro</span></li>
+                        <li><i class="fa-solid fa-share-nodes"></i>Funzioni di produttività premium e condivisione file semplice</li>
                     </ul>
                     <div class="btn">Prova gratis per 30 giorni</div>
+                    <span>oppure <a href="#">acquista ora</a></span>
+                    <h3 class="testo1">Punti salienti del piano</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check" style="color: #403dff;"></i>
+                             <span>Invia file fino a 100 gb con Dropbox</span></li>
+                        <li><i class="fa-solid fa-check" style="color: #403dff;"></i>
+                            <span>Invia file fino a 100 gb con Dropbox</span></li>
+                    </ul>
                 </div>
             </div>
         </section>
