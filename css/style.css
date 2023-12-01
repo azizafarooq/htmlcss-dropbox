@@ -19,6 +19,8 @@ header{
     display: flex;
     align-content: center;
     justify-content: space-between;
+    position: fixed;
+    background-color: white;
 }
 
 .btn-inizio{
@@ -256,3 +258,56 @@ h4{
     margin: 70px 0;
     width: 700px;
 }
+
+/*clients*/
+
+.clients-container{
+    border: 1px dashed black;
+    justify-content: center;
+    display: flex;
+    background-color: gray;
+}
+
+.clients{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+.clients-group{
+    width: calc(100% / 2);
+    background-color: aqua;
+    height: 200px;
+    border: 1px dashed black;
+
+}
+
+/*cards-bottom*/
+
+.cards-bottom{
+    background-color: hsl(207.06deg 51.52% 80.59%);
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px;
+}
+
+.faq{
+    padding: 100px 200px;
+    
+}
+
+.faq-question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.faq-title{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
