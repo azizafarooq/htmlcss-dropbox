@@ -222,3 +222,37 @@ h4{
 .partner-didascalia{
     padding: 20px 0;
 }
+
+/*Cards*/
+
+.cards-title{
+    font-size: 40px;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: calc(100% / 3);
+}
+
+.card > img{
+    width: 100%
+}
+
+.card > p{
+    padding: 10px 10px 10px 0;
+}
+
+.card > h3{
+    padding: 20px 0;
+}
+
+.cards-ending{
+    font-size: 40px;
+    margin: 70px 0;
+    width: 700px;
+}
