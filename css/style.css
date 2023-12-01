@@ -19,7 +19,6 @@ header{
     display: flex;
     align-content: center;
     justify-content: space-between;
-    position: fixed;
     background-color: white;
 }
 
