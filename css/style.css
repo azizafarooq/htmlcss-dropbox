@@ -7,20 +7,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
 li{
     list-style: none;
 }
+
 /*Header*/
 
 header{
     width: 100%;
     min-height: 60px;
-    border: 1px dashed black ;
     display: flex;
     align-content: center;
     justify-content: space-between;
@@ -31,16 +26,24 @@ header{
     color: white;
     padding: 10px;
     text-align: center;
+    text-decoration: none;
+    font-size: small;
 }
 
 h1{
     font-size: 100px;
     font-weight: bold;
 }
+
+.option{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
 .header-left{
     display: flex;
     align-items: center ;
-    border: 1px dashed black;
     padding: 10px;
 }
 
@@ -52,7 +55,6 @@ h1{
 .header-right{
     display: flex;
     align-items: center ;
-    border: 1px dashed black;
     padding: 10px;
 }
 
@@ -60,14 +62,12 @@ h1{
 
 .jumbotron{
     background-color:hsl(207.06deg 51.52% 80.59%);
-    border: 1px dashed black;
     padding-top: 30px;
     padding-right: 80px;
     padding-left: 80px;
 }
 
 .jumbotron-title{
-    border: 1px dashed black;
     text-align: center;
     padding: 10px;
     display: block;
@@ -78,19 +78,21 @@ h1{
 }
 
 .jumbotron-caption{
-    border: 1px dashed black;
     width: 50%;
     padding: 30px 60px;
     padding-top: 60px;
 }
 
 .jumbotron-image{
-    border: 1px dashed black;
     width: 50%;
 }
 
 p{
     padding: 20px;
+}
+
+.fa-arrow-down{
+    font-size: 50px;
 }
 
 .btn1{
@@ -111,16 +113,13 @@ p{
 main{
     margin: 90px 150px;
     padding:50px;
-    border: 1px dashed black;
-
-    /*Debug*/
-    height: 1000px;
 }
 
 /*Nav Fatturazione*/
 
 .testo{
     padding: 25px 0;
+    font-size: 40px;
 }
 
 .annuale{
@@ -132,17 +131,18 @@ main{
 .fatturazione-columns{
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
+    padding-top: 40px;
     gap: 10px;
 }
 
 .column{
     width: calc(100% / 3);
-    border: 1px solid gray;
+    
 }
 
-.column-name{
-    border: 0.5px solid gray;
+.column-name,
+.team{
+    border: 1px solid rgb(204, 204, 204);
     text-align: center;
     padding: 10px;
 }
@@ -154,7 +154,7 @@ main{
 }
 
 .fa-solid{
-    padding: 20px;
+    padding: 15px 2px;
 }
 
 .btn{
@@ -163,8 +163,63 @@ main{
     padding: 10px;
     margin: 30px;
     text-align: center;
+    height: 45px;
 }
 
 .testo1{
-    padding: 25px;
+    padding: 15px 0;
+}
+
+.professional, 
+.advanced,
+.enterprise{
+    padding: 0 15px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+/*ufficio vendite*/
+
+.ufficio-vendite{
+    margin-top: 20px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.ufficio-vendite-enterprise{
+    display: flex;
+    justify-content: space-between;
+}
+
+.testo2,
+.ufficio-vendite-p{
+    padding: 10px;
+    margin: 20px;
+}
+
+h4{
+    margin-top: 20px;
+}
+
+.ufficio-vendite-p{
+    font-weight: thin;
+}
+
+/*dropbox partner*/
+
+.dropbox-partner{
+    display: flex;
+    margin: 50px 0;
+    padding: 0 30px;
+}
+
+.partner{
+    width: 30%;
+}
+
+.partner-caption{
+    margin: 30px;
+    padding: 0 40px;
+}
+
+.partner-didascalia{
+    padding: 20px 0;
 }
